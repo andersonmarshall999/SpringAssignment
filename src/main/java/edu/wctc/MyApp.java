@@ -8,6 +8,6 @@ public class MyApp {
         context.register(AppConfig.class);
         context.refresh();
 
-        ((SalesReport)context.getBean("salesReport")).generateReport();
+        ((SalesReport)context.getBean("salesReport")).start();
     }
 }

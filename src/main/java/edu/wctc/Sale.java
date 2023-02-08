@@ -36,6 +36,6 @@ public class Sale {
     }
 
     public String toString() {
-        return String.format("Customer: %s \tCountry: %s \tAmount: $%.2f \tTax: $%.2f \tShipping: $%.2f", getCustomer(), getCountry(), getAmount(), getTax(), getShipping());
+        return String.format("Customer: %s \tCountry: %s \tAmount: $%.2f \tTax: $%.2f \tShipping: $%.2f\n", getCustomer(), getCountry(), getAmount(), getTax(), getShipping());
     }
 }

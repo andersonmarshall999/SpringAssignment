@@ -11,13 +11,15 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
     @Bean
     public ISalesInput salesInput() {
-        return null;
+        //return new SaleGetFromConsole();
+        return new SaleGetFromFile();
     }
 
-    @Bean
-    public ISalesReport salesReport() {
-        return null;
-    }
+    //@Bean
+    //public ISalesReport salesReport() {
+    //    return new SalesReportDetail();
+    //    //return new SalesReportSummary();
+    //}
 
     @Bean
     public IShippingPolicy shippingPolicy() {
