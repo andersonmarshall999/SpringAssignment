@@ -23,7 +23,7 @@ public class AppConfig {
 
     @Bean
     public IShippingPolicy shippingPolicy() {
-        return new ShippingPolicyFree();
         //return new ShippingPolicyFRD();
+        return new ShippingPolicyFree();
     }
 }

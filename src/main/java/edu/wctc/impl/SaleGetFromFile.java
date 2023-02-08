@@ -35,3 +35,5 @@ public class SaleGetFromFile implements ISalesInput {
         }
     }
 }
+
+

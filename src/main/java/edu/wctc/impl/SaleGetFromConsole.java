@@ -15,7 +15,7 @@ public class SaleGetFromConsole implements ISalesInput {
 
     @Override
     public List<Sale> getSales() {
-        System.out.print("Paste all data here: ");
+        System.out.print("Paste all data here (it wont work): ");
         String salesData = scanner.nextLine();
         List<Sale> sales = new ArrayList<>();
         while(scanner.hasNextLine()) {

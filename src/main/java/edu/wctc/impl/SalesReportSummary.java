@@ -12,6 +12,6 @@ public class SalesReportSummary implements ISalesReport {
 
     @Override
     public void generateReport(List<Sale> allSales) {
-        System.out.println("yea baby");
+        //System.out.println(String.format("Country: %s \tAmount: $%.2f \tTax: $%.2f \tShipping: $%.2f\n", getCustomer(), getCountry(), getAmount(), getTax(), getShipping()));
     }
 }

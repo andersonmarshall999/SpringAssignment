@@ -35,7 +35,12 @@ public class Sale {
         return shipping;
     }
 
+    public void setShipping() {
+        this.shipping = shipping;
+    }
+
     public String toString() {
+        //return report.generateReport();
         return String.format("Customer: %s \tCountry: %s \tAmount: $%.2f \tTax: $%.2f \tShipping: $%.2f\n", getCustomer(), getCountry(), getAmount(), getTax(), getShipping());
     }
 }
